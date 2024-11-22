@@ -1,0 +1,21 @@
+# Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+venv/
+venv.bak/
+
+# Django migrations
+*/migrations/*
+*.log
+
+# Database files
+db.sqlite3
+
+# Django secret key
+*.env
+
+# Static files (if not managed by a CDN)
+static/
